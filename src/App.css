@@ -34,10 +34,10 @@ form button {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-/* form button:hover {
-  background: #ff6f47;
+form button:hover {
+  background: red;
   color: white;
-} */
+}
 .todo-container {
   display: flex;
   justify-content: center;
@@ -65,6 +65,11 @@ form button {
 .todo li {
   flex: 1;
 }
+
+/* .todo-input,
+.todo-button {
+  border-radius: 30px;
+} */
 
 .trash-btn,
 .complete-btn {
