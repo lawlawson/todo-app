@@ -53,7 +53,7 @@ const App = () => {
   return (
     <div className='App'>
       <header>
-        <h1>Shopping List</h1>
+        <h3>Create-a-List App</h3>
       </header>
       <Form
         inputText={inputText}
