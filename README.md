@@ -1,4 +1,6 @@
-A CRUD application I have worked on as part of my journey whilst learning React.js.
+A todo/list application I have created which uses a number of core React concepts including props, useState, useEffect and local storage so that items remain even if the page is reloaded.
+
+[Click here to view](https://lawson-todo-app.netlify.app/)
 
 ## Instructions
 
