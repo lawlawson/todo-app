@@ -66,11 +66,6 @@ form button:hover {
   flex: 1;
 }
 
-/* .todo-input,
-.todo-button {
-  border-radius: 30px;
-} */
-
 .trash-btn,
 .complete-btn {
   background: #c02e06;
@@ -137,9 +132,3 @@ select {
   cursor: pointer;
   pointer-events: none;
 }
-/* Transition */
-/*
-.select:hover::after {
-  transform: scale(1.5);
-}
-*/

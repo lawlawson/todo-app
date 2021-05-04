@@ -51,22 +51,24 @@ const App = () => {
   };
 
   return (
-    <div className='App'>
-      <header>
-        <h3>Create-a-List App</h3>
-      </header>
-      <Form
-        inputText={inputText}
-        todos={todos}
-        setTodos={setTodos}
-        setInputText={setInputText}
-        setStatus={setStatus}
-      />
-      <TodoList
-        setTodos={setTodos}
-        todos={todos}
-        filteredTodos={filteredTodos}
-      />
+    <div container>
+      <div className='App'>
+        <header>
+          <h3>Create-a-List App</h3>
+        </header>
+        <Form
+          inputText={inputText}
+          todos={todos}
+          setTodos={setTodos}
+          setInputText={setInputText}
+          setStatus={setStatus}
+        />
+        <TodoList
+          setTodos={setTodos}
+          todos={todos}
+          filteredTodos={filteredTodos}
+        />
+      </div>
     </div>
   );
 };
